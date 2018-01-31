@@ -1,0 +1,22 @@
+# 3 lights test
+{
+	translate 50 50 0
+	light 1 0.655 0.102 0.1 0.001
+	
+	translate 325 325 100
+	light 1 0.412 0.706 0.1 0.001
+
+	translate 225 225 -50
+	light 0 0 1 0.1 0.001
+}
+gouraud
+ambient 0.7 0.7 0.7
+surface 1 0 0 0.3 8
+scale 40 40 40
+depth 0 400 0 0 0
+translate 200 200 50
+rotate X 30
+rotate Y 30
+file cube
+
+
